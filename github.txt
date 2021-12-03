@@ -1,4 +1,33 @@
 git clone (name of folder to be cloned from github) //it copies thing from git to local
-git init //to initialize 
+git init //to initialize the remote directory with name .git
+rm -rf .git //to remove the remote initialized repo i.e (.git)
 git add . //to add all the changes made 
 git add index.html //to add things made in index.html
+git config --global --list //to configure git and to check whether its connected to our local or not
+git commit -m "hhjjhjhdjhd" //gives message
+git push //pushes all the code to github
+git status //checks the status
+git remote -v //tells us about the location of remote repo
+git branch //tells us about the branches
+git checkout (branch-name) //makes new branch name
+git merge (merge to exixting branch)
+git reset (file name)//to undo
+git diff //tells us about the differences we made
+git remote add origin "location" //for the first time we have to use this code then the second one
+git push -u origin head //pushes code to origin
+------------------------------------------
+after merging it asks from pull request  |
+ and then ,merge in git hub  (git pull)  |
+------------------------------------------             
+
+------------------------------------------
+to be away from conflict we have to add   |
+then commit in both                       |
+------------------------------------------
+
+--------------------------------
+forking means dividing it in 2 |
+parts                          |
+-------------------------------
+-----------------------------------------------------------------------------------
+git help config //it provides us with all the help options

@@ -1,0 +1,4 @@
+git clone (name of folder to be cloned from github) //it copies thing from git to local
+git init //to initialize 
+git add . //to add all the changes made 
+git add index.html //to add things made in index.html
